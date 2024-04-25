@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .property {
+            margin-bottom: 10px;
+        }
+
+            .property label {
+                font-weight: bold;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello @name</h1>
+
+        <div class="property">
+            <label>ID:</label>
+            <span>@id</span>
+        </div>
+        <div class="property">
+            <label>Email:</label>
+            <span>@email</span>
+        </div>
+        <div class="property">
+            <label>Verified Email:</label>
+            <span>@verified_email</span>
+        </div>
+        <div class="property">
+            <label>Name:</label>
+            <span>@name</span>
+        </div>
+        <div class="property">
+            <label>Given Name:</label>
+            <span>@given_name</span>
+        </div>
+        <div class="property">
+            <label>Family Name:</label>
+            <span>@family_name</span>
+        </div>
+        <div class="property">
+            <label>Picture:</label>
+            <img src="@img_src" alt="Profile Picture">
+        </div>
+    </div>
+</body>
+</html>
